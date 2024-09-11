@@ -115,6 +115,11 @@ class BaiTap
     }
     public static void Main(string[] args)
     {
+        BaiTap.Bai1_04_09_2024();
+        BaiTap.Bai2_04_09_2024();
+        BaiTap.Bai3_04_09_2024();
+        BaiTap.Bai4_04_09_2024();
+        BaiTap.Bai5_04_09_2024();
         BaiTap.Bai6_04_09_2024();
     }
 }
