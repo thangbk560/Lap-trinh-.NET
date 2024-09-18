@@ -1,125 +1,138 @@
 ﻿using System;
-namespace TongMangNguyen;
-
-
-class BaiTap
+using System.Collections.Generic;
+class SanPham
 {
-    public static void Bai1_04_09_2024()
+    private string tenSanPham { get; set; }
+    private string moTa { get; set; }
+    private float gia { get; set; }
+    private int soLuong { get; set; }
+
+    public SanPham(string tenSanPham, float gia, string moTa, int soLuong)
     {
-        Console.Write("Nhập số phần tử của mảng: ");
-        int n = int.Parse(Console.ReadLine());
-        int[] Arr1 = new int[n];
-        for (int i = 0; i < n; i++)
-        {
-            Console.Write($"Nhập phần tử {i + 1}: ");
-            Arr1[i] = int.Parse(Console.ReadLine());
-        }
-        int Sum1 = 0;
-        foreach (int i in Arr1)
-        {
-            Sum1 += i;
-        }
-        Console.WriteLine("Tổng các phần tử mảng vừa nhập: " + Sum1);
+        this.tenSanPham = tenSanPham;
+        this.gia = gia;
+        this.moTa = moTa;
+        this.soLuong = soLuong;
+    }
+    public string getTenSanPham() { return tenSanPham; }
+    public float getGia() { return gia; }
+    public int getSoLuong() { return soLuong; }
+    public virtual void hienThi()
+    {
+        Console.WriteLine("Tên sản phẩm: " + this.tenSanPham + ", Giá: " + this.gia + ", Mô tả: " + this.moTa + ", Số lượng: " + this.soLuong);
+    }
+}
+
+class DienTu : SanPham
+{
+    private int baoHanh { get; set; }
+    public DienTu(string tenSanPham, float gia, string moTa, int soLuong, int baoHanh) : base (tenSanPham, gia, moTa, soLuong)
+    {
+        this.baoHanh = baoHanh;
+    }
+    public override void hienThi()
+    {
+        base.hienThi();
+        Console.WriteLine("Bảo hành: " + this.baoHanh + " tháng");
+    }
+}
+
+class QuanAo : SanPham
+{
+    private string kichThuoc { get; set; }
+    private string mauSac { get; set; }
+    public QuanAo(string tenSanPham, float gia, string moTa, int soLuong, string kichThuoc, string mauSac) : base(tenSanPham, gia, moTa, soLuong)
+    {
+        this.kichThuoc = kichThuoc;
+        this.mauSac = mauSac;
+    }
+    public override void hienThi()
+    {
+        base.hienThi();
+        Console.WriteLine("Kích thước: " + this.kichThuoc + ", Màu sắc: " + this.mauSac);
+    }
+}
+
+class ThucPham : SanPham
+{
+    private DateTime ngayHetHan { get; set; }
+    public ThucPham(string tenSanPham, float gia, string moTa, int soLuong, DateTime ngayHetHan) : base(tenSanPham, gia, moTa, soLuong)
+    {
+        this.ngayHetHan = ngayHetHan;
+    }
+    public override void hienThi()
+    {
+        base.hienThi();
+        Console.WriteLine("Ngày hết hạn: " + this.ngayHetHan.ToString("dd/MM/yyyy"));
+    }
+}
+
+class GioHang
+{
+    private List<SanPham> danhSachSanPham;
+
+    public GioHang()
+    {
+        danhSachSanPham = new List<SanPham>();
     }
 
-    public static void Bai2_04_09_2024()
+    public void themSanPham(SanPham sp)
     {
-        Console.Write("Nhập 1 chuỗi: ");
-        string Str = Console.ReadLine();
-        int Count = 0;
-        for (int i = 0; i < Str.Length; i++)
-        {
-            char c = Str[i];
-            if (!char.IsWhiteSpace(c) && !char.IsPunctuation(c))
-            {
-                Count++;
-            }
-        }
-        Console.WriteLine("Số ký tự không phải khoảng trắng và dấu câu trong chuỗi là: " + Count);
+        danhSachSanPham.Add(sp);
+        Console.WriteLine($"{sp.getTenSanPham()} đã được thêm vào giỏ hàng.");
     }
 
-    public static void Bai3_04_09_2024()
+    public void xoaSanPham(SanPham sp)
     {
-        Console.Write("Nhập số phần tử của mảng: ");
-        int n = int.Parse(Console.ReadLine());
-        int[] Arr1 = new int[n];
-        for (int i = 0; i < n; i++)
+        if (danhSachSanPham.Contains(sp))
         {
-            Console.Write($"Nhập phần tử {i + 1}: ");
-            Arr1[i] = int.Parse(Console.ReadLine());
-        }
-        int Max1 = Arr1[0];
-        for (int i = 1; i < n; i++)
-        {
-            if (Arr1[i] > Max1)
-            {
-                Max1 = Arr1[i];
-            }
-        }
-        Console.WriteLine("Phần tử lớn nhất trong mảng là: " + Max1);
-    }
-
-    public static void Bai4_04_09_2024()
-    {
-        Console.Write("Nhập 1 chuỗi: ");
-        string Str1 = Console.ReadLine();
-        char[] Arr1 = Str1.ToCharArray();
-        Array.Reverse(Arr1);
-        string Str2 = new string(Arr1);
-        Console.WriteLine("Chuỗi sau khi đảo: " + Str2);
-    }
-
-    public static void Bai5_04_09_2024()
-    {
-        Console.Write("Nhập số phần tử của mảng: ");
-        int n = int.Parse(Console.ReadLine());
-        int[] Arr1 = new int[n];
-        for (int i = 0; i < n; i++)
-        {
-            Console.Write($"Nhập phần tử {i + 1}: ");
-            Arr1[i] = int.Parse(Console.ReadLine());
-        }
-        bool a = true;
-        for (int i = 0; i < (int)n / 2; i++)
-        {
-            if (Arr1[i] != Arr1[n - 1 - i])
-            {
-                a = false;
-            }
-        }
-        if (a == true)
-        {
-            Console.WriteLine("Mảng đối xứng.");
+            danhSachSanPham.Remove(sp);
+            Console.WriteLine($"{sp.getTenSanPham()} đã được xóa khỏi giỏ hàng.");
         }
         else
         {
-            Console.WriteLine("Không phải mảng đối xứng.");
+            Console.WriteLine($"{sp.getTenSanPham()} không có trong giỏ hàng.");
         }
     }
 
-    public static void Bai6_04_09_2024()
+    public void hienThiGioHang()
     {
-        Console.Write("Nhập 1 chuỗi: ");
-        string Str = Console.ReadLine();
-        Console.Write("Nhập ký tự: ");
-        char c = Console.ReadLine()[0];
-        int Count = 0;
-        foreach (char i in Str)
+        Console.WriteLine("Danh sách sản phẩm trong giỏ hàng:");
+        foreach (var sp in danhSachSanPham)
         {
-            if (i == c)
-            {
-                Count++;
-            }
+            sp.hienThi();
+            Console.WriteLine("----------------------------");
         }
-        Console.WriteLine($"Số lần xuất hiện ký tự {c} là: " + Count);
     }
-    public static void Main(string[] args)
+
+    public float tinhTongGiaTri()
     {
-        BaiTap.Bai1_04_09_2024();
-        BaiTap.Bai2_04_09_2024();
-        BaiTap.Bai3_04_09_2024();
-        BaiTap.Bai4_04_09_2024();
-        BaiTap.Bai5_04_09_2024();
-        BaiTap.Bai6_04_09_2024();
+        float tongGiaTri = 0;
+        foreach (var sp in danhSachSanPham)
+        {
+            tongGiaTri += sp.getGia() * sp.getSoLuong();
+        }
+        return tongGiaTri;
+    }
+}
+
+class Shop
+{
+    static void Main(string[] args)
+    {
+        DienTu laptop = new DienTu("Laptop", 15000000, "Laptop gaming", 1, 18);
+        QuanAo aophong = new QuanAo("Áo phông", 200000, "Áo phông cotton", 3, "L", "Đen");
+        ThucPham sua = new ThucPham("Sữa tươi", 30000, "Sữa tươi nguyên chất", 10, DateTime.Now.AddMonths(2));
+
+        GioHang gioHang = new GioHang();
+
+        gioHang.themSanPham(laptop);
+        gioHang.themSanPham(aophong);
+        gioHang.themSanPham(sua);
+
+        gioHang.hienThiGioHang();
+
+        float tongGiaTri = gioHang.tinhTongGiaTri();
+        Console.WriteLine($"Tổng giá trị đơn hàng: {tongGiaTri} VND");
     }
 }
