@@ -1,0 +1,14 @@
+C:\Users\chanh\source\repos\TongMangNguyen\TongMangNguyen\obj\Debug\net8.0\TongMangNguyen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chanh\source\repos\TongMangNguyen\TongMangNguyen\obj\Debug\net8.0\TongMangNguyen.AssemblyInfoInputs.cache
+C:\Users\chanh\source\repos\TongMangNguyen\TongMangNguyen\obj\Debug\net8.0\TongMangNguyen.AssemblyInfo.cs
+C:\Users\chanh\source\repos\TongMangNguyen\TongMangNguyen\obj\Debug\net8.0\TongMangNguyen.csproj.CoreCompileInputs.cache
+C:\Users\chanh\source\repos\TongMangNguyen\TongMangNguyen\bin\Debug\net8.0\TongMangNguyen.exe
+C:\Users\chanh\source\repos\TongMangNguyen\TongMangNguyen\bin\Debug\net8.0\TongMangNguyen.deps.json
+C:\Users\chanh\source\repos\TongMangNguyen\TongMangNguyen\bin\Debug\net8.0\TongMangNguyen.runtimeconfig.json
+C:\Users\chanh\source\repos\TongMangNguyen\TongMangNguyen\bin\Debug\net8.0\TongMangNguyen.dll
+C:\Users\chanh\source\repos\TongMangNguyen\TongMangNguyen\bin\Debug\net8.0\TongMangNguyen.pdb
+C:\Users\chanh\source\repos\TongMangNguyen\TongMangNguyen\obj\Debug\net8.0\TongMangNguyen.dll
+C:\Users\chanh\source\repos\TongMangNguyen\TongMangNguyen\obj\Debug\net8.0\refint\TongMangNguyen.dll
+C:\Users\chanh\source\repos\TongMangNguyen\TongMangNguyen\obj\Debug\net8.0\TongMangNguyen.pdb
+C:\Users\chanh\source\repos\TongMangNguyen\TongMangNguyen\obj\Debug\net8.0\TongMangNguyen.genruntimeconfig.cache
+C:\Users\chanh\source\repos\TongMangNguyen\TongMangNguyen\obj\Debug\net8.0\ref\TongMangNguyen.dll
