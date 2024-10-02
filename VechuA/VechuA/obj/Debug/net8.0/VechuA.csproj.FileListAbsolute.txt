@@ -1,0 +1,14 @@
+C:\Users\chanh\source\repos\VechuA\VechuA\bin\Debug\net8.0\VechuA.exe
+C:\Users\chanh\source\repos\VechuA\VechuA\bin\Debug\net8.0\VechuA.deps.json
+C:\Users\chanh\source\repos\VechuA\VechuA\bin\Debug\net8.0\VechuA.runtimeconfig.json
+C:\Users\chanh\source\repos\VechuA\VechuA\bin\Debug\net8.0\VechuA.dll
+C:\Users\chanh\source\repos\VechuA\VechuA\bin\Debug\net8.0\VechuA.pdb
+C:\Users\chanh\source\repos\VechuA\VechuA\obj\Debug\net8.0\VechuA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chanh\source\repos\VechuA\VechuA\obj\Debug\net8.0\VechuA.AssemblyInfoInputs.cache
+C:\Users\chanh\source\repos\VechuA\VechuA\obj\Debug\net8.0\VechuA.AssemblyInfo.cs
+C:\Users\chanh\source\repos\VechuA\VechuA\obj\Debug\net8.0\VechuA.csproj.CoreCompileInputs.cache
+C:\Users\chanh\source\repos\VechuA\VechuA\obj\Debug\net8.0\VechuA.dll
+C:\Users\chanh\source\repos\VechuA\VechuA\obj\Debug\net8.0\refint\VechuA.dll
+C:\Users\chanh\source\repos\VechuA\VechuA\obj\Debug\net8.0\VechuA.pdb
+C:\Users\chanh\source\repos\VechuA\VechuA\obj\Debug\net8.0\VechuA.genruntimeconfig.cache
+C:\Users\chanh\source\repos\VechuA\VechuA\obj\Debug\net8.0\ref\VechuA.dll

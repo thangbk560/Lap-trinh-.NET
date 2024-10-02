@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VechuA", "VechuA\VechuA.csproj", "{87E66827-7154-4D91-9F4E-DCC43F03D547}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87E66827-7154-4D91-9F4E-DCC43F03D547}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87E66827-7154-4D91-9F4E-DCC43F03D547}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87E66827-7154-4D91-9F4E-DCC43F03D547}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87E66827-7154-4D91-9F4E-DCC43F03D547}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57474AAD-65FF-4CDF-8329-C06BB168B3F0}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+C:\Users\chanh\source\repos\TimMax\TimMax\bin\Debug\net8.0\TimMax.exe
+C:\Users\chanh\source\repos\TimMax\TimMax\bin\Debug\net8.0\TimMax.deps.json
+C:\Users\chanh\source\repos\TimMax\TimMax\bin\Debug\net8.0\TimMax.runtimeconfig.json
+C:\Users\chanh\source\repos\TimMax\TimMax\bin\Debug\net8.0\TimMax.dll
+C:\Users\chanh\source\repos\TimMax\TimMax\bin\Debug\net8.0\TimMax.pdb
+C:\Users\chanh\source\repos\TimMax\TimMax\obj\Debug\net8.0\TimMax.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chanh\source\repos\TimMax\TimMax\obj\Debug\net8.0\TimMax.AssemblyInfoInputs.cache
+C:\Users\chanh\source\repos\TimMax\TimMax\obj\Debug\net8.0\TimMax.AssemblyInfo.cs
+C:\Users\chanh\source\repos\TimMax\TimMax\obj\Debug\net8.0\TimMax.csproj.CoreCompileInputs.cache
+C:\Users\chanh\source\repos\TimMax\TimMax\obj\Debug\net8.0\TimMax.dll
+C:\Users\chanh\source\repos\TimMax\TimMax\obj\Debug\net8.0\refint\TimMax.dll
+C:\Users\chanh\source\repos\TimMax\TimMax\obj\Debug\net8.0\TimMax.pdb
+C:\Users\chanh\source\repos\TimMax\TimMax\obj\Debug\net8.0\TimMax.genruntimeconfig.cache
+C:\Users\chanh\source\repos\TimMax\TimMax\obj\Debug\net8.0\ref\TimMax.dll

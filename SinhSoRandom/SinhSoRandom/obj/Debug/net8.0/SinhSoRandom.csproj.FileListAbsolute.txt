@@ -1,0 +1,14 @@
+C:\Users\chanh\source\repos\SinhSoRandom\SinhSoRandom\obj\Debug\net8.0\SinhSoRandom.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chanh\source\repos\SinhSoRandom\SinhSoRandom\obj\Debug\net8.0\SinhSoRandom.AssemblyInfoInputs.cache
+C:\Users\chanh\source\repos\SinhSoRandom\SinhSoRandom\obj\Debug\net8.0\SinhSoRandom.AssemblyInfo.cs
+C:\Users\chanh\source\repos\SinhSoRandom\SinhSoRandom\obj\Debug\net8.0\SinhSoRandom.csproj.CoreCompileInputs.cache
+C:\Users\chanh\source\repos\SinhSoRandom\SinhSoRandom\bin\Debug\net8.0\SinhSoRandom.exe
+C:\Users\chanh\source\repos\SinhSoRandom\SinhSoRandom\bin\Debug\net8.0\SinhSoRandom.deps.json
+C:\Users\chanh\source\repos\SinhSoRandom\SinhSoRandom\bin\Debug\net8.0\SinhSoRandom.runtimeconfig.json
+C:\Users\chanh\source\repos\SinhSoRandom\SinhSoRandom\bin\Debug\net8.0\SinhSoRandom.dll
+C:\Users\chanh\source\repos\SinhSoRandom\SinhSoRandom\bin\Debug\net8.0\SinhSoRandom.pdb
+C:\Users\chanh\source\repos\SinhSoRandom\SinhSoRandom\obj\Debug\net8.0\SinhSoRandom.dll
+C:\Users\chanh\source\repos\SinhSoRandom\SinhSoRandom\obj\Debug\net8.0\refint\SinhSoRandom.dll
+C:\Users\chanh\source\repos\SinhSoRandom\SinhSoRandom\obj\Debug\net8.0\SinhSoRandom.pdb
+C:\Users\chanh\source\repos\SinhSoRandom\SinhSoRandom\obj\Debug\net8.0\SinhSoRandom.genruntimeconfig.cache
+C:\Users\chanh\source\repos\SinhSoRandom\SinhSoRandom\obj\Debug\net8.0\ref\SinhSoRandom.dll
