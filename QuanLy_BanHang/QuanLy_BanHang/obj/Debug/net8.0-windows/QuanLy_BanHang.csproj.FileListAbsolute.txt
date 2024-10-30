@@ -1,0 +1,16 @@
+C:\Users\chanh\source\repos\QuanLy_BanHang\QuanLy_BanHang\obj\Debug\net8.0-windows\QuanLy_BanHang.Form1.resources
+C:\Users\chanh\source\repos\QuanLy_BanHang\QuanLy_BanHang\obj\Debug\net8.0-windows\QuanLy_BanHang.csproj.GenerateResource.cache
+C:\Users\chanh\source\repos\QuanLy_BanHang\QuanLy_BanHang\obj\Debug\net8.0-windows\QuanLy_BanHang.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chanh\source\repos\QuanLy_BanHang\QuanLy_BanHang\obj\Debug\net8.0-windows\QuanLy_BanHang.AssemblyInfoInputs.cache
+C:\Users\chanh\source\repos\QuanLy_BanHang\QuanLy_BanHang\obj\Debug\net8.0-windows\QuanLy_BanHang.AssemblyInfo.cs
+C:\Users\chanh\source\repos\QuanLy_BanHang\QuanLy_BanHang\obj\Debug\net8.0-windows\QuanLy_BanHang.csproj.CoreCompileInputs.cache
+C:\Users\chanh\source\repos\QuanLy_BanHang\QuanLy_BanHang\bin\Debug\net8.0-windows\QuanLy_BanHang.exe
+C:\Users\chanh\source\repos\QuanLy_BanHang\QuanLy_BanHang\bin\Debug\net8.0-windows\QuanLy_BanHang.deps.json
+C:\Users\chanh\source\repos\QuanLy_BanHang\QuanLy_BanHang\bin\Debug\net8.0-windows\QuanLy_BanHang.runtimeconfig.json
+C:\Users\chanh\source\repos\QuanLy_BanHang\QuanLy_BanHang\bin\Debug\net8.0-windows\QuanLy_BanHang.dll
+C:\Users\chanh\source\repos\QuanLy_BanHang\QuanLy_BanHang\bin\Debug\net8.0-windows\QuanLy_BanHang.pdb
+C:\Users\chanh\source\repos\QuanLy_BanHang\QuanLy_BanHang\obj\Debug\net8.0-windows\QuanLy_BanHang.dll
+C:\Users\chanh\source\repos\QuanLy_BanHang\QuanLy_BanHang\obj\Debug\net8.0-windows\refint\QuanLy_BanHang.dll
+C:\Users\chanh\source\repos\QuanLy_BanHang\QuanLy_BanHang\obj\Debug\net8.0-windows\QuanLy_BanHang.pdb
+C:\Users\chanh\source\repos\QuanLy_BanHang\QuanLy_BanHang\obj\Debug\net8.0-windows\QuanLy_BanHang.genruntimeconfig.cache
+C:\Users\chanh\source\repos\QuanLy_BanHang\QuanLy_BanHang\obj\Debug\net8.0-windows\ref\QuanLy_BanHang.dll
